@@ -51,6 +51,9 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
 }
+.brand a:hover {
+  color: #ff8000;
+}
 .header-links a {
   color: #ffffff;
   text-decoration: none;
