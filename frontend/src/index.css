@@ -25,9 +25,9 @@ a:hover {
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header"
-    "main"
-    "footer";
+    'header'
+    'main'
+    'footer';
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
@@ -66,9 +66,7 @@ a:hover {
 .main {
   grid-area: main;
   max-width: 1400px;
-  margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 2rem 2rem;
 }
 .footer {
   grid-area: footer;
@@ -162,4 +160,67 @@ a:hover {
   right: 0.5rem;
   top: 1.5rem;
   background: #ffffff;
+}
+
+/* Product Details */
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.details-image {
+  flex: 2 1 50rem;
+}
+
+.details-image img {
+  max-width: 50rem;
+}
+
+.details-info {
+  flex: 1 1 20rem;
+}
+
+.details-action {
+  flex: 1 1 20rem;
+}
+
+.details-info ul,
+.details-action ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-info li,
+.details-action li {
+  margin: 1rem;
+}
+
+.back-to-home {
+  padding: 1rem;
+}
+
+.details-action {
+  border: 0.1rem #808080 solid;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  padding: 1rem;
+}
+
+.details-action ul li:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  padding: 1rem;
+  border: 0.1rem #808080 solid;
+  cursor: pointer;
+}
+.button:hover {
+  border: 0.3rem #404040 solid;
+}
+.button.primary {
+  background-color: #f0f040;
 }
