@@ -1,0 +1,29 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "Backend for Amazona clone",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulgoyal21/Amazona-app.git"
+  },
+  "author": "Rahul Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulgoyal21/Amazona-app/issues"
+  },
+  "homepage": "https://github.com/rahulgoyal21/Amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.7"
+  }
+}

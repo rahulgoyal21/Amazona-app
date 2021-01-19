@@ -2,3 +2,6 @@
 yarn.lock
 .eslintcache
 .vscode
+/node_modules
+.babelrc
+package-lock.json
